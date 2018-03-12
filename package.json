@@ -1,0 +1,20 @@
+{
+  "name": "vehicles-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "memory-cache": "^0.2.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0"
+  }
+}
