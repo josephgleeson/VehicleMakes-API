@@ -53,6 +53,8 @@ let searchMakes = (searchString) => {
 
             mcache.put(key, filteredResults, 60000);
             resolve(filteredResults);
+        }).catch((error) => {
+            reject(error);
         });
     });
 };

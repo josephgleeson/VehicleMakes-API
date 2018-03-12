@@ -29,7 +29,12 @@ makesRouter.route('/:search')
 
             res.status(200).json(response);
         }).catch((error) => {
-            res.status(404).send(error);
+            if (error instanceof Error) {
+                res.status(500).send(error);
+            }
+            else { // search returned no results
+                res.status(404).send(error);
+            }
         });
     }
 );

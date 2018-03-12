@@ -11,12 +11,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-
 app.use('/api/makes', makes);
 app.use('/api/types', types);
-
-// app.listen(port, function(){
-//     console.log('Gulp is running my app on  PORT: ' + port);
-// });
 
 module.exports = app;
