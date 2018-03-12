@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "gulp",
+    "start": "gulp"
   },
   "private": true,
   "dependencies": {
